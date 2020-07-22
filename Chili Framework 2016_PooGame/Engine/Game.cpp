@@ -29,9 +29,9 @@ Game::Game(MainWindow& wnd)
 	rng(rd()),
 	xDist(0, 770),
 	yDist(0, 570),
-	poo0(xDist(rng), yDist(rng), 2, 2),
-	poo1(xDist(rng), yDist(rng), 2, 2),
-	poo2(xDist(rng), yDist(rng), 2, 2)
+	poo0(xDist(rng), yDist(rng), 1, 1),
+	poo1(xDist(rng), yDist(rng), 1, 1),
+	poo2(xDist(rng), yDist(rng), 1, 1)
 {
 }
 

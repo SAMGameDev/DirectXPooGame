@@ -1,6 +1,5 @@
 #pragma once
 #include "Graphics.h"
-#include "Game.h"
 #include "Keyboard.h"
 
 class Dude
@@ -9,14 +8,14 @@ public:
 	void ClampTOScreen();
 	void DrawDude(Graphics& gfx);
 	void Update(const Keyboard& kbd);
-	int Getx() const;
-	int GetY() const;
-	int GetWidth() const;
-	int GetHieght() const;
+	float Getx() const;
+	float GetY() const;
+	float GetWidth() const;
+	float GetHieght() const;
 private:
-	int x = 400;
-	int y = 300;
-	static constexpr int speed = 1;
-	static constexpr int dudeWidth = 20;
-	static constexpr int dudehieght = 20;
+	float x = 400;
+	float y = 300;
+	static constexpr float speed = 4;
+	static constexpr float dudeWidth = 20;
+	static constexpr float dudehieght = 20;
 };

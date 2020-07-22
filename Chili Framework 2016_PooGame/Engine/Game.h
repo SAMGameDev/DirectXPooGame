@@ -25,6 +25,7 @@
 #include "Poo.h"
 #include "Dude.h"
 #include <random>
+#include "FrameTimer.h"
 
 class Game
 {
@@ -53,6 +54,7 @@ private:
 	Poo poo0;
 	Poo poo1;
 	Poo poo2;
+	FrameTimer time;
 	Dude dude;
 	bool isStarted = false;
 	/********************************/
