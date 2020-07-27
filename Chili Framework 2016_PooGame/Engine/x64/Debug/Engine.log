@@ -10,10 +10,4 @@
   MainWindow.cpp
   Mouse.cpp
   Poo.cpp
-C:\Users\samim\source\repos\DirectXPooGame\Chili Framework 2016_PooGame\Engine\Game.cpp(32,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\samim\source\repos\DirectXPooGame\Chili Framework 2016_PooGame\Engine\Game.cpp(32,12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\samim\source\repos\DirectXPooGame\Chili Framework 2016_PooGame\Engine\Game.cpp(33,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\samim\source\repos\DirectXPooGame\Chili Framework 2016_PooGame\Engine\Game.cpp(33,12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\samim\source\repos\DirectXPooGame\Chili Framework 2016_PooGame\Engine\Game.cpp(34,24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\samim\source\repos\DirectXPooGame\Chili Framework 2016_PooGame\Engine\Game.cpp(34,12): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Engine.vcxproj -> C:\Users\samim\source\repos\DirectXPooGame\Chili Framework 2016_PooGame\x64\Debug\Engine.exe

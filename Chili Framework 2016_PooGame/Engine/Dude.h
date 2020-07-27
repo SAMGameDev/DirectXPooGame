@@ -13,9 +13,9 @@ public:
 	float GetWidth() const;
 	float GetHieght() const;
 private:
-	float x = 400;
-	float y = 300;
-	static constexpr float speed = 4;
-	static constexpr float dudeWidth = 20;
-	static constexpr float dudehieght = 20;
+	float x = 400.0f;
+	float y = 300.0f;
+	static constexpr float speed = 4.0f;
+	static constexpr float dudeWidth = 20.0f;
+	static constexpr float dudehieght = 20.0f;
 };

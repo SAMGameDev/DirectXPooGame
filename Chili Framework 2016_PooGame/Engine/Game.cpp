@@ -27,11 +27,11 @@ Game::Game(MainWindow& wnd)
 	wnd(wnd),
 	gfx(wnd),
 	rng(rd()),
-	xDist(0, 770),
-	yDist(0, 570),
-	poo0(xDist(rng), yDist(rng), 1, 1),
-	poo1(xDist(rng), yDist(rng), 1, 1),
-	poo2(xDist(rng), yDist(rng), 1, 1)
+	xDist(0.0f, 770.0f),
+	yDist(0.0f, 570.0f),
+	poo0(xDist(rng), yDist(rng), 1.0f, 1.0f),
+	poo1(xDist(rng), yDist(rng), 1.0f, 1.0f),
+	poo2(xDist(rng), yDist(rng), 1.0f, 1.0f)
 {
 }
 
@@ -41,11 +41,12 @@ void Game::Go()
 	UpdateModel();
 	ComposeFrame();
 	gfx.EndFrame();
-
 }
 
 void Game::UpdateModel()
 {
+	const float dt = ft.Mark();
+
 	if (isStarted) 
 	{		
 		dude.Update(wnd.kbd);

@@ -15,8 +15,8 @@ private:
 	float y;
 	float velx;
 	float velY;
-	static constexpr int width = 24;
-	static constexpr int hieght = 24;
+	static constexpr float width = 24.0f;
+	static constexpr float hieght = 24.0f;
 	bool pooiseaten = false;
 };
 
