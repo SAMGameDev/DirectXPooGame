@@ -1,23 +1,23 @@
 #include "Game.h"
 #include "Dude.h"
 
-void Dude::Update(const Keyboard& kbd)
+void Dude::Update(const Keyboard& kbd, float dt)
 {
 	if (kbd.KeyIsPressed(VK_RIGHT))
 	{
-		x += speed;
+		x += speed * dt;
 	}
 	else if (kbd.KeyIsPressed(VK_LEFT))
 	{
-		x -= speed;
+		x -= speed * dt;
 	}
 	else if (kbd.KeyIsPressed(VK_DOWN))
 	{
-		y += speed;
+		y += speed * dt;
 	}
 	else if (kbd.KeyIsPressed(VK_UP))
 	{
-		y -= speed;
+		y -= speed * dt;
 	}
 }
 void Dude::ClampTOScreen()

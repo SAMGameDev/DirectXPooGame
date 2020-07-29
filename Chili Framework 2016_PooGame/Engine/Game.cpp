@@ -29,9 +29,9 @@ Game::Game(MainWindow& wnd)
 	rng(rd()),
 	xDist(0.0f, 770.0f),
 	yDist(0.0f, 570.0f),
-	poo0(xDist(rng), yDist(rng), 1.0f, 1.0f),
-	poo1(xDist(rng), yDist(rng), 1.0f, 1.0f),
-	poo2(xDist(rng), yDist(rng), 1.0f, 1.0f)
+	poo0(xDist(rng), yDist(rng), 60.0f, 60.0f),
+	poo1(xDist(rng), yDist(rng), 60.0f, 60.0f),
+	poo2(xDist(rng), yDist(rng), 60.0f, 60.0f)
 {
 }
 
@@ -49,13 +49,13 @@ void Game::UpdateModel()
 
 	if (isStarted) 
 	{		
-		dude.Update(wnd.kbd);
+		dude.Update(wnd.kbd, dt);
 
 		dude.ClampTOScreen();
 
-		poo0.Update();
-		poo1.Update();
-		poo2.Update();
+		poo0.Update(dt);
+		poo1.Update(dt);
+		poo2.Update(dt);
 
 		poo0.ProcessConsumption(dude);
 		poo1.ProcessConsumption(dude);

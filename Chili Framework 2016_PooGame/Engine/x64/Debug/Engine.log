@@ -1,13 +1,6 @@
-﻿  compilation header save succeeded; see C:\Users\samim\source\repos\DirectXPooGame\Chili Framework 2016_PooGame\Engine\FramebufferPS.shh
-  compilation header save succeeded; see C:\Users\samim\source\repos\DirectXPooGame\Chili Framework 2016_PooGame\Engine\FramebufferVS.shh
-  Dude.cpp
-  DXErr.cpp
-  FrameTimer.cpp
+﻿  Dude.cpp
   Game.cpp
-  Graphics.cpp
-  Keyboard.cpp
   Main.cpp
   MainWindow.cpp
-  Mouse.cpp
   Poo.cpp
   Engine.vcxproj -> C:\Users\samim\source\repos\DirectXPooGame\Chili Framework 2016_PooGame\x64\Debug\Engine.exe

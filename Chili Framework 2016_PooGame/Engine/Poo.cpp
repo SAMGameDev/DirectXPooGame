@@ -9,10 +9,10 @@ Poo::Poo(float Lx, float Ly, float LvelX, float LVely)
 	velY = LVely;
 }
 
-void Poo::Update()
+void Poo::Update(float dt)
 {
-	x += velx;
-	y += velY;
+	x += velx * dt;
+	y += velY * dt;
 
 	const float right = x + width;
 
